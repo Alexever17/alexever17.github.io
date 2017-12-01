@@ -1,0 +1,17 @@
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Concert One', 'Space Mono', cursive,  monospace;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  background-color: #2C0000;
+  color: white;
+}
+
+.portrait-img {
+  width: 500px;
+}
