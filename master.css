@@ -111,6 +111,11 @@ iframe {
   height: 400px;
 }
 
+.other {
+  display: flex;
+  justify-content: center;
+}
+
 .navigation-projects {
   cursor: pointer;
   display: flex;
