@@ -55,6 +55,11 @@ li:hover .githublink {
   cursor: pointer;
 }
 
+.nav-active {
+  background-color: black;
+  pointer-events: none;
+}
+
 .nav-title {
   font-size: 1.7em;
   font-family: "Concert One", cursive;
@@ -86,19 +91,40 @@ li:hover .githublink {
   padding-left: 3vw;
   padding-right: 3vw;
   width: 62vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 .undertitle {
   text-align: center;
   background-color: #770E0E;
   color: white;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 60px;
+  background-color: transparent;
+  color: white;
+  font-size: 1.5em;
+  border-color: white;
+  border-width: 1px;
+  margin: 10px;
+}
+
+button:focus {
+  outline:0;
 }
 
 .projects {
   min-width: 400px;
   min-height: 400px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   box-shadow: 0px 0px 10px #333 inset;
@@ -106,37 +132,29 @@ li:hover .githublink {
 
 iframe {
   border: none;
+  width: 100%;
+  height: 100%;
+}
+
+.frameholder {
+  height: 400px;
   width: 30%;
   min-width: 400px;
-  height: 400px;
+}
+
+.frameholder:nth-child(2) {
+  width: 40%;
+}
+
+.overlay {
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  transform: translateY(-403px);
 }
 
 .other {
   display: flex;
   justify-content: center;
-}
-
-.navigation-projects {
-  cursor: pointer;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-}
-
-.loadbutton {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 50px;
-  width: 3%;
-  min-width: 50px;
-  height: 400px;
-}
-
-.left {
-  background-color: #A02D2D;
-}
-
-.right  {
-  background-color: #CB5C5C;
 }
