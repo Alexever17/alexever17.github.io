@@ -7,8 +7,18 @@ var database = {
   "https://alexever17.github.io/100DaysOfCss/002-menu-icon/"]
 };
 
-function forward(category, idnumber) {
-  console.log(caregory);
-  console.log(idnumber);
-  window.open(database[category][idnumber]);
+function openwebsite(category, idnumber) {
+      if (confirm("Open the website in a new window?") == true) {
+        window.open(database[category][idnumber]);
+    } else {
+        return;
+    }
+}
+
+function forward(category) {
+  alert('Sorry, not enough projects yet');
+}
+
+function back(category) {
+  alert('Sorry, not enough projects yet');
 }
