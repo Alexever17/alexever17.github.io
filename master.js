@@ -8,11 +8,7 @@ var database = {
 };
 
 function openwebsite(category, idnumber) {
-      if (confirm("Open the website in a new window?") == true) {
-        window.open(database[category][idnumber]);
-    } else {
-        return;
-    }
+      window.open(database[category][idnumber]);
 }
 
 function forward(category) {
