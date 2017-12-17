@@ -33,11 +33,13 @@ ul {
 
 li {
     font-size: 1rem;
-    padding: 1rem;
+    /* padding: 1rem; */
     list-style-type: none;
 }
 
 li>a {
+    display: block;
+    padding: 1rem;
     text-decoration: none;
     color: white;
 }
@@ -219,11 +221,20 @@ footer {
 @media only screen and (max-width: 500px) {
     .nav-ul li {
         padding: 0 10px;
+        width: 60px;;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-ul li:first-child {
+        width: 100vw;
     }
 
     .nav-ul li img {
-        width: 50px;
-        height: auto;
+        width: 40px;
+        height: 40px;
     }
 
     .introduction {
