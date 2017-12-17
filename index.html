@@ -7,7 +7,6 @@
     <meta name="author" content="Oleksandr Malakhov">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="master.css">
     <link rel="icon" href="favicon.gif" type="image/gif" sizes="16x16">
     <link href="https://fonts.googleapis.com/css?family=Concert+One|Space+Mono" rel="stylesheet">
@@ -18,58 +17,58 @@
       <nav class="nav">
         <ul class="nav-ul">
           <li class="nav-title">Oleksandr Malakhov Portfolio</li>
-          <li class="nav-active">Coding</li>
-          <li id="change-trigger-business" onclick="alert('Sorry, not done yet!');">Business</li>
-          <li id="change-trigger-contact"><a href="contact.html">Contact</a></li>
+          <li class="nav-active">Coding </li>
+          <li onclick="alert('Sorry, not done yet!');">Business</li>
+          <li><a href="contact.html">Contact</a></li>
           <li><a class="githublink" href="https://github.com/Alexever17/" target="_blank">Visit me on GitHub</a></li>
         </ul>
       </nav>
     </header>
     <section class="intro-box">
-      <div class="portrait">
-        <img class="portrait-img" src="portrait-picture.jpg" alt="Here you should see a picture of Oleksandr Malakhov">
-      </div>
-      <div class="introduction">
-        <h1>Welcome stranger, grab a drink and get comfy!</h1>
-        <p>My name is Oleksandr Malakhov and its nice that you have time to visit my small portfolio.
-          I am fascinated by the Internet and try to come closer to understand it by making my own small websites and projects.
-        I am by no means a professional, but maybe you will find here some interesting or new things for you. If you want
-      to know more about one of them, just klick on the corresponding tile. Have fun!</p>
-      </div>
+        <div class="portrait">
+            <img class="portrait-img" src="portrait-picture.jpg" alt="Here you should see a picture of Oleksandr Malakhov">
+        </div>
+        <div class="introduction">
+            <h1>Welcome stranger, grab a drink and get comfy!</h1>
+            <p>My name is Oleksandr Malakhov and its nice that you have time to visit my small portfolio.
+              I am fascinated by the Internet and try to come closer to understand it by making my own small websites and projects.
+            I am by no means a professional, but maybe you will find here some interesting or new things for you. If you want
+          to know more about one of them, just klick on the corresponding tile. Have fun!</p>
+        </div>
     </section>
     <article class="undertitle">
-      <button type="button" name="button" onclick="back(1)">&#60;</button>
-      <h2>Projects</h2>
-      <button type="button" name="button" onclick="forward(1)">&#62;</button>
+        <button type="button" name="button" onclick="back(1)">&#60;</button>
+        <h2>Projects</h2>
+        <button type="button" name="button" onclick="forward(1)">&#62;</button>
     </article>
-    <section class="projects other">
-      <div class="frameholder">
-        <iframe scrolling="no" src="https://alexever17.github.io/NameYoubifier/"></iframe>
-        <div class="overlay" onclick="openwebsite('projects', 0)"></div>
-      </div>
-      <div class="frameholder">
-        <iframe scrolling="no" src="https://alexever17.github.io/googlemaps/"></iframe>
-        <div class="overlay" onclick="openwebsite('projects', 1)"></div>
-      </div>
-      <div class="frameholder">
-        <iframe scrolling="no" src="https://alexever17.github.io/random-quote-machine/"></iframe>
-        <div class="overlay" onclick="openwebsite('projects', 2)"></div>
-      </div>
+    <section class="projects big">
+        <div class="frameholder">
+            <iframe scrolling="no" src="https://alexever17.github.io/NameYoubifier/"></iframe>
+            <a href="https://alexever17.github.io/NameYoubifier/" target="_blank">Full Version</a>
+        </div>
+        <div class="frameholder">
+            <iframe scrolling="no" src="https://alexever17.github.io/googlemaps/"></iframe>
+            <a href="https://alexever17.github.io/googlemaps/" target="_blank">Full Version</a>
+        </div>
+        <div class="frameholder">
+            <iframe scrolling="no" src="https://alexever17.github.io/random-quote-machine/"></iframe>
+            <a href="https://alexever17.github.io/random-quote-machine/" target="_blank">Full Version</a>
+        </div>
     </section>
     <article class="undertitle">
-      <button type="button" name="button" onclick="back(2)">&#60;</button>
-      <h2>30 Days of Javascript</h2>
-      <button type="button" name="button" onclick="forward(2)">&#62;</button>
+        <button type="button" name="button" onclick="back(2)">&#60;</button>
+        <h2>30 Days of Javascript</h2>
+        <button type="button" name="button" onclick="forward(2)">&#62;</button>
     </article>
     <section class="projects jsdays">
-      <div class="frameholder">
-        <iframe scrolling="no" src="https://alexever17.github.io/30daysofjs/001-drumkit/"></iframe>
-        <div class="overlay" onclick="openwebsite('js30', 0)"></div>
-      </div>
-      <div class="frameholder">
-        <iframe scrolling="no" src="https://alexever17.github.io/30daysofjs/002-clock/"></iframe>
-        <div class="overlay" onclick="openwebsite('js30', 1)"></div>
-      </div>
+        <div class="frameholder">
+            <iframe scrolling="no" src="https://alexever17.github.io/30daysofjs/001-drumkit/"></iframe>
+            <a href="https://alexever17.github.io/30daysofjs/001-drumkit/" target="_blank">Full Version</a>
+        </div>
+        <div class="frameholder">
+            <iframe scrolling="no" src="https://alexever17.github.io/30daysofjs/002-clock/"></iframe>
+            <a href="https://alexever17.github.io/30daysofjs/002-clock/" target="_blank">Full Version</a>
+        </div>
     </section>
     <article class="undertitle">
       <button type="button" name="button" onclick="back(3)">&#60;</button>
@@ -77,14 +76,14 @@
       <button type="button" name="button" onclick="forward(3)">&#62;</button>
     </article>
     <section class="projects csdays">
-      <div class="frameholder">
-        <iframe scrolling="no" src="https://alexever17.github.io/100DaysOfCss/001-title/"></iframe>
-        <div class="overlay" onclick="openwebsite('css100', 0)"></div>
-      </div>
-      <div class="frameholder">
-        <iframe scrolling="no" src="https://alexever17.github.io/100DaysOfCss/002-menu-icon/"></iframe>
-        <div class="overlay" onclick="openwebsite('css100', 1)"></div>
-      </div>
+        <div class="frameholder">
+            <iframe scrolling="no" src="https://alexever17.github.io/100DaysOfCss/001-title/"></iframe>
+            <a href="https://alexever17.github.io/100DaysOfCss/001-title/" target="_blank">Full Version</a>
+        </div>
+        <div class="frameholder">
+            <iframe scrolling="no" src="https://alexever17.github.io/100DaysOfCss/002-menu-icon/"></iframe>
+            <a href="https://alexever17.github.io/100DaysOfCss/002-menu-icon/" target="_blank">Full Version</a>
+        </div>
     </section>
     <footer>
       <p class="end">12.2017 &copy; Oleksandr Malakhov</p>

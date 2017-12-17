@@ -1,193 +1,240 @@
 /*http://paletton.com/palette.php?uid=1000u0ksceVh-pvmXk8z5a1L85-*/
 
 html, body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Space Mono', cursive,  monospace;
-  background-color: #2C0000;
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', cursive, monospace;
+    background-color: #2C0000;
 }
 
 h2 {
-  margin: 0;
-  padding: 0.7em;
+    margin: 0;
+    padding: 1rem;
 }
 
+/* HEADER SECTION */
+
 header {
-  margin: 0;
-  padding: 0;
-  background-color: #2C0000;
-  color: white;
-  box-shadow: 0px 0px 10px #333;
+    margin: 0;
+    padding: 0;
+    background-color: #2C0000;
+    color: white;
 }
 
 ul {
-  min-width: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
+    min-width: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
 
 li {
-  font-size: 1.5em;
-  padding: 15px;
-  list-style-type: none;
+    font-size: 1rem;
+    padding: 1rem;
+    list-style-type: none;
 }
 
-li > a {
-  text-decoration: none;
-  color: white;
+li>a {
+    text-decoration: none;
+    color: white;
 }
 
 li:hover {
-  background-color: white;
-  color: #2C0000;
-  transform: scale(1.1, 1);
-  cursor: pointer;
+    background-color: white;
+    color: #2C0000;
+    transform: scale(1.05, 1);
+    cursor: pointer;
 }
 
 li:hover a {
-   color: #2C0000;
+    color: #2C0000;
 }
 
 li:hover .githublink {
-  background-color: white;
-  color: #2C0000;
-  transform: scale(1.1, 1);
-  cursor: pointer;
+    background-color: white;
+    color: #2C0000;
+    transform: scale(1.05, 1);
+    cursor: pointer;
 }
 
 .nav-active {
-  background-color: black;
-  pointer-events: none;
+    background-color: black;
+    pointer-events: none;
 }
 
 .nav-title {
-  font-size: 1.7em;
-  font-family: "Concert One", cursive;
-  padding-right: 40px;
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: "Concert One", cursive;
+    padding-right: 2rem;
 }
 
 .nav-title:hover {
-  background-color: #2C0000;
-  color: white;
-  transform: scale(1.0);
-  cursor: default;
+    background-color: #2C0000;
+    color: white;
+    transform: scale(1.0);
+    cursor: default;
 }
 
+/* INTRO SECTION */
+
 .intro-box {
-  background-color: white;
-  min-width: 400px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  box-shadow: 0px 0px 10px #333 inset;
+    background-color: white;
+    width: 100%;
+    min-width: 22rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.portrait {
+    width: 40%;
+    min-width: 22rem;
+    min-height: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .portrait-img {
-  transform: translate(-5px, 3px);
-  width: 30vw;
-  min-width: 300px;
+    max-width: 30vw;
+    min-width: 22rem;
+    height: auto;
+    display: block;
 }
 
 .introduction {
-  padding-left: 3vw;
-  padding-right: 3vw;
-  width: 62vw;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
-  align-content: center;
-  line-height: 1.5;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 56%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    line-height: 1.5;
 }
 
+/* MAIN SECTION */
+
 .undertitle {
-  text-align: center;
-  background-color: #770E0E;
-  color: white;
-  display: flex;
-  justify-content: center;
+    text-align: center;
+    background-color: #770E0E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
-  width: 60px;
-  background-color: transparent;
-  color: white;
-  font-size: 1.5em;
-  border-color: white;
-  border-width: 1px;
-  margin: 10px;
+    min-width: 3rem;
+    width: 3rem;
+    max-height: 4rem;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    border-color: white;
+    border-width: 1px;
+    margin: 0.5rem;
+    padding: 0
 }
 
 button:focus {
-  outline:0;
+    outline: 0;
 }
 
 button:hover {
-  background-color: white;
-  color: #2C0000;
-  transform: scale(1.1, 1);
-  cursor: pointer;
+    background-color: white;
+    color: #2C0000;
+    transform: scale(1.05, 1);
+    cursor: pointer;
 }
 
+
+/* Project lines */
+
 .projects {
-  background-color: white;
-  min-width: 400px;
-  min-height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  box-shadow: 0px 0px 10px #333 inset;
+    background-color: white;
+    width: 100%;
+    min-width: 22rem;
+    min-height: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.projects a {
+    width: 20%;
+    min-width: 10rem;
 }
 
 .projects img {
-  height: 250px;
-  margin: 25px;
-}
-
-iframe {
-  border: none;
-  width: 100%;
-  height: 100%;
+    width: 20%;
+    min-width: 10rem;
 }
 
 .frameholder {
-  height: 400px;
-  width: 30%;
-  min-width: 400px;
+    width: 33%;
+    height: 30vh;
+    min-height: 22rem;
+    text-align: center;
 }
 
 .frameholder:nth-child(2) {
-  width: 40%;
+    width: 34%;
 }
 
-.overlay {
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  transform: translateY(-403px);
+.frameholder a {
+    height: 10%;
 }
 
-.other {
-  display: flex;
-  justify-content: center;
+iframe {
+    border: none;
+    width: 100%;
+    height: 90%;
 }
+
+/* FOOTER SECTION */
 
 footer {
-  background-color: #2C0000;
-  color: white;
+    background-color: #2C0000;
+    color: white;
 }
 
 .end {
-  text-align: center;
-  margin: 0;
+    text-align: center;
+    margin: 0;
 }
 
 .end a {
-  color: white;
+    color: white;
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 500px) {
+    .nav-ul li {
+        padding: 0 10px;
+    }
+
+    .nav-ul li img {
+        width: 50px;
+        height: auto;
+    }
+
+    .introduction {
+        width: 80%;
+    }
+
+    .frameholder {
+        width: 100vw;
+    }
+
+    .frameholder:nth-child(2) {
+        width: 100vw;
+    }
 }
