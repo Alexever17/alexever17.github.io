@@ -98,3 +98,6 @@ the special project with @shay did progress really well over the last few days, 
 23.12.2017:
 i made a ****** mess out of the projects commits, but i think i made a ton of progress today on the project with @shay
 will probably be finished next week :leichtes_lächeln:
+
+24.12.2017:
+Had 2 hours without internet and nothing good to do, so i coded a bit for the new beta freecodecamp, getting the first certificate should he very straightforward xD
