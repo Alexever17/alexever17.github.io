@@ -105,3 +105,7 @@ Had 2 hours without internet and nothing good to do, so i coded a bit for the ne
 25.12.2017:
 finished the product landing page for beta freecodecamp whenever this thing actually goes online -.- 
 looked into some other things and updated my portfolio
+
+26.12.2017:
+- worked a bit on the chingu project
+- currently writting the roadmap for chingus wizard bot for tier one, if somebody wants to help out please contact :)
