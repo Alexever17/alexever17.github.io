@@ -109,3 +109,40 @@ looked into some other things and updated my portfolio
 26.12.2017:
 - worked a bit on the chingu project
 - currently writting the roadmap for chingus wizard bot for tier one, if somebody wants to help out please contact :)
+
+27.12.2017:
+No coding today, because i was the hole day outside and only came back at 10pm #sad
+
+28.12.2017:
+No coding either, it was just too difficult to fit into the schedule, but i have seen a magician show and that was nice!
+
+29.12.2017:
+did net ninjas tutorials on sass, now i have become 0.5% more ninja xD
+ported a project to sass to test it out, it went well
+
+30.12.2017:
+Finally finished a mockup of a tier one roadmap for the chingu wizard bot, help still wanted :)
+
+31.12.2017:
+Oh yeah, silvester log fellas xD
+Personally i am quite happy to finish 2017 and finally transition to 2018. I want to make 2018 a really amazing year and the overarching theme is "self-improvement".
+I want to be a lot harder on my sepf this year and have a healthier mental attitude and slack a lot leas of. And just keeping me healthier than in 2017.
+It was indeed a nice fun day but also a lot of reflection and the first year i am setting myself those january resolutions haha
+I used to lock down on them, but i think if it is something realistical it should be doable
+For the next month those are the 4 one hour areas i want to improve:
+
+//// Spend 1 hour everyday for my university studies after the day/lectures - I hope to reduce my stress in exam weeks
+
+//// 1 hour of actual english learning. I am not bad but i really want to get to a native level.
+And what i mean is not exposing myself to the language by watching movies in english or something but reall studying, like grammer or something (tips welcomed, i have never properly studied a language before haha)
+
+//// 1 hour of learning chinese, my university degree and my cultural background are literary screaming at me to learn a 4th language and i enjoy different cultures quite a lot, so its either chinese or japanese for me. For now chinese is easier to find courses so lets try this our
+
+//// 1 hours of coding everyday, though i am not starting a 100daysofcode challenge or whatever the trendy hashtag is because my life is stressful enough then to think:"Oh no, i cant go out and do this because i havent finished my balbal hour!"
+So yeah just would like to end up with a nice amount learned in 2018
+
+Sorry for such a textwall, its just a nice and convenient round up of my thoughts from this day^^
+(And for the mistakes, was tipped on the phone -.-)
+
+01.01.2018:
+great start into the year with some 4 hours of coding today
