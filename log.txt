@@ -146,3 +146,12 @@ Sorry for such a textwall, its just a nice and convenient round up of my thought
 
 01.01.2018:
 great start into the year with some 4 hours of coding today
+
+02.01.2018:
+fixed some things in the game and included it into my portfolio
+ 
+03.01.2018:
+made a new thingy form the 100days of css:
+number 3, the pyramid:
+https://alexever17.github.io/100DaysOfCss/003-pyramid/
+click on it, you will like it :3 (bearbeitet)
