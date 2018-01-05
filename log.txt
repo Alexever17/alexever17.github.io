@@ -46,18 +46,18 @@ Coding break :slightly_smiling_face:
 finished a good chunk of our chingu landing page clone 
 https://i.imgur.com/7FVLQ01.png
 EDIT: 
-also did the footer section and did some small work on my other existing webpages, minor bug fixes (bearbeitet)
+also did the footer section and did some small work on my other existing webpages, minor bug fixes
 
 10.12.2017:
-No coding for that day, but some image rendering for a secret project with @shay  :3 (bearbeitet)
+No coding for that day, but some image rendering for a secret project with @shay  :3
 
 11.12.2017:
-Sadly, no coding either, but sometimes i just need to concentrate on my degree :leichtes_lächeln: (bearbeitet)
+Sadly, no coding either, but sometimes i just need to concentrate on my degree :leichtes_lächeln:
 
 12.12.2017:
 the last of my important exams is done, now i can really concentrate on coding!
 - watched some of net ninjas videos on DOM
-- looked through beta fccs new curriculum, waiting for it to open to finish it fast :leichtes_lächeln: (bearbeitet)
+- looked through beta fccs new curriculum, waiting for it to open to finish it fast :leichtes_lächeln:
 
 13.12.2017:
 Such a busy day, only some bugfixes in old websites and started 100daysofcss #003 - not finished
@@ -73,7 +73,7 @@ https://alexever17.github.io/tribute-page/
 https://alexever17.github.io/30daysofjs/002-clock/
 
 16.12.2017:
-No coding today, just played danganronpa the whole day, but it is such a meaningfull game that i feel like it was totally worth it. It deals with a lot of the bad sides of the human nature
+No coding today, just played danganronpa the whole day, but it is such a meaningful game that i feel like it was totally worth it. It deals with a lot of the bad sides of the human nature
 
 17.12.2018:
 made some major changes to my portfolio to have cleaner code
@@ -108,7 +108,7 @@ looked into some other things and updated my portfolio
 
 26.12.2017:
 - worked a bit on the chingu project
-- currently writting the roadmap for chingus wizard bot for tier one, if somebody wants to help out please contact :)
+- currently writing the roadmap for chingus wizard bot for tier one, if somebody wants to help out please contact :)
 
 27.12.2017:
 No coding today, because i was the hole day outside and only came back at 10pm #sad
@@ -154,4 +154,4 @@ fixed some things in the game and included it into my portfolio
 made a new thingy form the 100days of css:
 number 3, the pyramid:
 https://alexever17.github.io/100DaysOfCss/003-pyramid/
-click on it, you will like it :3 (bearbeitet)
+click on it, you will like it :3
