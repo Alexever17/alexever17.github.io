@@ -155,3 +155,38 @@ made a new thingy form the 100days of css:
 number 3, the pyramid:
 https://alexever17.github.io/100DaysOfCss/003-pyramid/
 click on it, you will like it :3 (bearbeitet)
+
+## 04.01.2018:
+Making the entry way later, apperently i worked on https://alexever17.github.io/calculator-fcc/
+should rewrite it someday
+
+## 05.01.2018:
+Working on some 100daysofCSS challenge
+
+## 06.01.2018 - 24.01.2018:
+The beginning of what i would like to call the great coding depression.
+No coding and nearly no studying, i had some bad days and mostly didn't want to do anything 
+But i orginized my exchange semester and flew over it, was sick before and after the flight, so those were some bad weeks
+Broke all those nice new years resolutions but whatever. Couldn't have predicted how everything will work out
+
+## 25.01.2018:
+Starting to like my life again, the courses in the exchange semester are quite nice and i started to do some coding again, so regular logs i suppose. 
+Worked on https://catch-da-alien.github.io/ and https://chingu-voyage3.github.io/toucans-19/ to make them serviceble for the voyage showcase, its very nice that i got help for the second one
+
+## 26.01.2018:
+No coding
+
+## 27.01.2018:
+More work on https://catch-da-alien.github.io/ and https://chingu-voyage3.github.io/toucans-19/
+
+## 28.01.2018: 
+started the https://github.com/Alexever17/tictactoe page
+
+## 29.01.2018:
+fixing https://catch-da-alien.github.io/ and a very simple version of https://github.com/Alexever17/tictactoe finished
+
+## 30.01.2018:
+finishing up https://github.com/Alexever17/tictactoe and making it a lot smarter
+
+## 31.01.2018:
+very busy wednesday, no coding
