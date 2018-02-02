@@ -190,3 +190,6 @@ finishing up https://github.com/Alexever17/tictactoe and making it a lot smarter
 
 ## 31.01.2018:
 very busy wednesday, no coding
+
+## 01.02.2018:
+Busy again, was added to the voyage4 slack. Began working on https://alexever17.github.io/hanoi-tower/
