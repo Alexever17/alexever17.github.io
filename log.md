@@ -193,3 +193,12 @@ very busy wednesday, no coding
 
 ## 01.02.2018:
 Busy again, was added to the voyage4 slack. Began working on https://alexever17.github.io/hanoi-tower/
+
+## 02.04.2018:
+Finished https://alexever17.github.io/hanoi-tower/ (wihtout a mobile version for now)
+
+## 03.04.2018:
+Nothing here
+
+## 04.02.2018:
+Redesign of https://alexever17.github.io/random-quote-machine still don't really like it
