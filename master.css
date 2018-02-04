@@ -164,7 +164,7 @@ button:hover {
     min-width: 22rem;
     min-height: 22rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -180,7 +180,7 @@ button:hover {
 }
 
 .frameholder {
-    width: 33%;
+    width: 32%;
     height: 40vh;
     min-height: 25rem;
     text-align: center;
@@ -221,7 +221,7 @@ footer {
 @media only screen and (max-width: 500px) {
     .nav-ul li {
         padding: 0 10px;
-        width: 60px;;
+        width: 80px;;
         height: 60px;
         display: flex;
         justify-content: center;
