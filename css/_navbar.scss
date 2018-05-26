@@ -16,6 +16,6 @@
 
 @include media-breakpoint-up(lg) {
     .lineHeightAdjust {
-    line-height: 37px;
+    line-height: inherit;
 }
 }

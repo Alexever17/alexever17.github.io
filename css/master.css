@@ -9541,6 +9541,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 @media (min-width: 992px) {
   .lineHeightAdjust {
-    line-height: 37px;
+    line-height: inherit;
   }
 }
