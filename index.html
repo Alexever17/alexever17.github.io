@@ -9,44 +9,105 @@
     <meta property="og:image" content="https://raw.githubusercontent.com/Alexever17/alexever17.github.io/bootstrap/assets/thumbnail.jpg">
     <link rel="icon" href="assets\favicon.gif" type="image/gif" sizes="16x16">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.4/css/uikit.min.css" />
+    
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.4/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.4/js/uikit-icons.min.js"></script>
     <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
     <div id="main">
 
-      <footer class="footer color2-0">
-        <div class="columns is-mobile">
-          <div class="column">
-            <p class="has-text-centered">05.2018 &copy;
-              <a href="https://github.com/Alexever17">Oleksandr Malakhov</a>
-            </p>
-            <br>
-            <p class="has-text-centered">
-              Thanks for visiting!<br> If you have any further questions, feel free to reach out here:
-            </p>
+
+
+
+      <div class="uk-container-expand hero" id="navbar">
+        <nav class="uk-navbar-container uk-navbar-transparent uk-visible@s" uk-navbar>
+          <div class="uk-navbar-left">
+        
+            <ul class="uk-navbar-nav">
+              <li>
+                <a href="#" class="biggerText">Oleksandr Malakhov</a>
+              </li>
+              <li>
+                <a href="#" class="biggerText">Parent</a>
+              </li>
+              <li>
+                <a href="#" class="biggerText">Item</a>
+              </li>
+            </ul>
+        
           </div>
-        </div>
-        <div class="columns is-mobile justifyCentered">
-          <div class="column is-flex is-12 justifySpaceAround">
-            <a href="mailto:alexever17@gmail.com">
-              <span class="icon is-large">
-                <i class="fas fa-3x fa-envelope-square"></i>
-              </span>
-            </a>
-            <a href="mailto:alexever17@gmail.com">
-              <span class="icon is-large">
-                <i class="fab fa-facebook fa-3x"></i>
-              </span>
-            </a>
-            <a href="mailto:alexever17@gmail.com">
-              <span class="icon is-large">
-                <i class="fa-3x fab fa-github-square"></i>
-              </span>
+        </nav>
+
+        <nav class="uk-navbar uk-navbar-container uk-margin uk-hidden@s">
+          <div class="uk-navbar-left">
+            <!-- Logo Alexever17 novel rankings -->
+            <a href="https://alex-novels.xyz/">
+              <img src="images/logo.png" alt="novels logo">
             </a>
           </div>
-        </div>
-      </footer>
+          <div class="uk-navbar-right">
+            <!-- The Search Icon and the collapsed hamburger menu -->
+            <!-- <a class="uk-navbar-toggle" href="#modal-full" uk-search-icon uk-toggle></a> -->
+            <a class="uk-navbar-toggle" href="#offcanvas-usage" uk-toggle>
+              <span uk-navbar-toggle-icon></span>
+              <span class="uk-margin-small-left">Menu</span>
+            </a>
+          </div>
+        
+          <!-- The Sidemenu which pops up on the left side -->
+          <div class="uk-offcanvas-content">
+            <!-- The whole page content goes here -->
+            <div id="offcanvas-usage" uk-offcanvas>
+              <div class="uk-offcanvas-bar">
+                <!-- The button which closes the menu -->
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+                <div class="uk-width-1-1">
+                  <!-- The logo and links inside the sidemenu -->
+                  <ul class="uk-nav-primary" uk-nav>
+                    <li>
+                      <a href="https://alex-novels.xyz/">
+                        <img src="images/logo.png" alt="" class="sidebar-image">
+                      </a>
+                    </li>
+                    <li class="uk-nav-divider"></li>
+                    <li class="uk-nav-divider"></li>
+                    <li>
+                      <a href="full-list.html">Full List</a>
+                    </li>
+                    <li>
+                      <a href="korean.html">Korean Novels</a>
+                    </li>
+                    <li>
+                      <a href="japanese.html">Japanese Novels</a>
+                    </li>
+                    <li>
+                      <a href="chinese.html">Chinese Novels</a>
+                    </li>
+                    <li>
+                      <a href="dropped.html">Dropped</a>
+                    </li>
+                    <li class="uk-nav-divider"></li>
+                    <li class="uk-nav-divider"></li>
+                    <li>
+                      <a href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+
+
+
+
+
 
     </div>
     <script src="js/index.js"></script>

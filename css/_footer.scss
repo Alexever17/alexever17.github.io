@@ -1,19 +1,1 @@
 @import "_mediaqueries";
-
-.color2-0 {
-    background: $color0-4 !important;
-}
-
-.justifySpaceAround {
-    justify-content: space-around;
-}
-
-.justifyCentered {
-    justify-content: center;
-}
-
-@include breakMin($tablet) {
-    .justifySpaceAround {
-        width: 50% !important;
-}
-}
