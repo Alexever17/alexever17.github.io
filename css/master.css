@@ -19,6 +19,10 @@
   background: #1D0539 !important;
 }
 
+.firstNavElement {
+  margin-left: 30px;
+}
+
 .additionalPadding {
   padding: 8% 5% !important;
 }
