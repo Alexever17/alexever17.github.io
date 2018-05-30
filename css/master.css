@@ -3,14 +3,6 @@
   background-size: cover;
 }
 
-.firstSection {
-  background: url(../assets/cassi-josh-644012-unsplash.jpg) no-repeat center fixed;
-}
-
-.secondSection {
-  background: url(../assets/art-by-lonfeldt-592708-unsplash.jpg) no-repeat center fixed;
-}
-
 .navText {
   font-size: 150% !important;
   text-transform: inherit !important;
@@ -41,4 +33,12 @@
 
 .marginTop {
   margin-top: 20px;
+}
+
+.firstSection {
+  background: url(../assets/cassi-josh-644012-unsplash.jpg) no-repeat center fixed;
+}
+
+.secondSection {
+  background: url(../assets/art-by-lonfeldt-592708-unsplash.jpg) no-repeat center fixed;
 }
