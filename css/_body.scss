@@ -21,3 +21,18 @@
 .secondSection {
       background: url(../assets/art-by-lonfeldt-592708-unsplash.jpg) no-repeat center fixed;
 }
+
+.colorShadow {
+    // box-shadow: 3px 3px $color1-4, -3px -3px $color2-4;
+    box-shadow: 3px 3px black, -3px -3px black;
+}
+
+.noTopMargin {
+    margin-top: 0 !important;
+}
+
+@include break(640) {
+    .noTopMargin {
+    margin-top: 30px !important;
+}
+}
