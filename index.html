@@ -23,38 +23,37 @@
 
 
 
-      <div class="uk-container-expand hero" id="navbar">
+      <div class="uk-container-expand hero firstSection" id="navbar">
+        <!-- DESKTOP NAV -->
         <nav class="uk-navbar-container uk-navbar-transparent uk-visible@s" uk-navbar>
           <div class="uk-navbar-left">
         
             <ul class="uk-navbar-nav">
               <li>
-                <a href="#" class="biggerText">Oleksandr Malakhov</a>
+                <a href="#" class="navText">Oleksandr Malakhov</a>
               </li>
               <li>
-                <a href="#" class="biggerText">Parent</a>
+                <a href="#Projects" class="navText">Projects</a>
               </li>
               <li>
-                <a href="#" class="biggerText">Item</a>
+                <a href="#Stack" class="navText">Stack</a>
+              </li>
+              <li>
+                <a href="#Contact" class="navText">Contact</a>
               </li>
             </ul>
         
           </div>
         </nav>
 
-        <nav class="uk-navbar uk-navbar-container uk-margin uk-hidden@s">
+        <!-- MOBILE NAV -->
+        <nav class="uk-navbar uk-navbar-container uk-navbar-transparent uk-hidden@s">
           <div class="uk-navbar-left">
-            <!-- Logo Alexever17 novel rankings -->
-            <a href="https://alex-novels.xyz/">
-              <img src="images/logo.png" alt="novels logo">
-            </a>
-          </div>
-          <div class="uk-navbar-right">
             <!-- The Search Icon and the collapsed hamburger menu -->
             <!-- <a class="uk-navbar-toggle" href="#modal-full" uk-search-icon uk-toggle></a> -->
             <a class="uk-navbar-toggle" href="#offcanvas-usage" uk-toggle>
-              <span uk-navbar-toggle-icon></span>
-              <span class="uk-margin-small-left">Menu</span>
+              <span uk-navbar-toggle-icon class="navText"></span>
+              <span class="uk-margin-small-left navTextSmall">Oleksandr Malakhov</span>
             </a>
           </div>
         
@@ -62,38 +61,32 @@
           <div class="uk-offcanvas-content">
             <!-- The whole page content goes here -->
             <div id="offcanvas-usage" uk-offcanvas>
-              <div class="uk-offcanvas-bar">
+              <div class="uk-offcanvas-bar navColor">
                 <!-- The button which closes the menu -->
-                <button class="uk-offcanvas-close" type="button" uk-close></button>
+                <button class="uk-offcanvas-close navText" type="button" uk-close></button>
                 <div class="uk-width-1-1">
                   <!-- The logo and links inside the sidemenu -->
                   <ul class="uk-nav-primary" uk-nav>
                     <li>
-                      <a href="https://alex-novels.xyz/">
-                        <img src="images/logo.png" alt="" class="sidebar-image">
-                      </a>
+                      
+                    </li>
+                    <li>
+                      <a href="index.html" class="navTextSmall">Oleksandr Malakhov</a>
                     </li>
                     <li class="uk-nav-divider"></li>
                     <li class="uk-nav-divider"></li>
                     <li>
-                      <a href="full-list.html">Full List</a>
-                    </li>
-                    <li>
-                      <a href="korean.html">Korean Novels</a>
-                    </li>
-                    <li>
-                      <a href="japanese.html">Japanese Novels</a>
-                    </li>
-                    <li>
-                      <a href="chinese.html">Chinese Novels</a>
-                    </li>
-                    <li>
-                      <a href="dropped.html">Dropped</a>
+                      <a href="#Projects" class="navTextSmall">Projects</a>
                     </li>
                     <li class="uk-nav-divider"></li>
                     <li class="uk-nav-divider"></li>
                     <li>
-                      <a href="contact.html">Contact</a>
+                      <a href="#Stack" class="navTextSmall">Stack</a>
+                    </li>
+                    <li class="uk-nav-divider"></li>
+                    <li class="uk-nav-divider"></li>
+                    <li>
+                      <a href="#Contact" class="navTextSmall">Contact</a>
                     </li>
                   </ul>
                 </div>
@@ -101,6 +94,55 @@
             </div>
           </div>
         </nav>
+
+        <!-- CONTENT -->
+        <div class="uk-child-width-1-2@m uk-child-width-1-2@s uk-flex-bottom marginTop additionalPaddingParent" uk-grid>
+
+          <div>
+            <div class="uk-card uk-card-default">
+              <div class="uk-card-media-top">
+                <img src="assets/library.jpg" alt="">
+              </div>
+              <div class="uk-card-body">
+                <h3 class="uk-card-title">Featured Project: <a href="https://alex-novels.xyz">Alex Novels</a></h3>
+                <p>A small Website to show off my favorit Novels and my rating of them. Maybe you can discover something interesting for you?</p>
+                <button class="uk-button uk-button-default"><a href="https://github.com/Alexever17/novels">Github</a></button>
+                <button class="uk-button uk-button-default">
+                  <a href="https://alex-novels.xyz">Live Website</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="uk-container-expand">
+            <div class="uk-card uk-card-default uk-card-small ">
+              <div class="uk-card-header additionalPaddingSmall">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                  <div class="uk-width-auto">
+                    <img class="uk-border-circle" width="40" height="40" src="assets/profil.jpg">
+                  </div>
+                  <div class="uk-width-expand">
+                    <h3 class="uk-card-title uk-margin-remove-bottom">Welcome stranger!</h3>
+                    <p class="uk-text-meta uk-margin-remove-top">
+                      <time datetime="2016-04-01T19:00">May 30, 2018</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="uk-card-body additionalPadding">
+                <p>My name is Oleksandr Malakhov and its nice that you have time to visit my small portfolio. I am fascinated by the Internet
+                  and try to come closer to understand it by making my own small websites and projects. I am by no means a professional,
+                  but maybe you will find here some interesting or new things for you. If you want to know more about one of them, just
+                  klick on the corresponding tile. Have fun!</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="uk-container-expand hero secondSection" id="projects">
+
 
       </div>
 

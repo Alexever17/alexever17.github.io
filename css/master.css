@@ -1,5 +1,44 @@
-.hero { width: 100vw; height: 100vh; background: url(../assets/aperture-vintage-339839-unsplash.jpg) no-repeat center fixed; background-size: cover; }
+.hero {
+  min-height: 100vh;
+  background-size: cover;
+}
 
-.biggerText { font-size: 200% !important; }
+.firstSection {
+  background: url(../assets/cassi-josh-644012-unsplash.jpg) no-repeat center fixed;
+}
 
-/*# sourceMappingURL=master.css.map */
+.secondSection {
+  background: url(../assets/art-by-lonfeldt-592708-unsplash.jpg) no-repeat center fixed;
+}
+
+.navText {
+  font-size: 150% !important;
+  text-transform: inherit !important;
+  color: white !important;
+}
+
+.navTextSmall {
+  font-size: 130% !important;
+  text-transform: inherit !important;
+  color: white !important;
+}
+
+.navColor {
+  background: #1D0539 !important;
+}
+
+.additionalPadding {
+  padding: 8% 5% !important;
+}
+
+.additionalPaddingSmall {
+  padding: 4% 5% !important;
+}
+
+.additionalPaddingParent {
+  padding: 4% 4%;
+}
+
+.marginTop {
+  margin-top: 20px;
+}
