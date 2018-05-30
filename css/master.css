@@ -46,3 +46,18 @@
 .secondSection {
   background: url(../assets/art-by-lonfeldt-592708-unsplash.jpg) no-repeat center fixed;
 }
+
+.colorShadow {
+  -webkit-box-shadow: 3px 3px black, -3px -3px black;
+          box-shadow: 3px 3px black, -3px -3px black;
+}
+
+.noTopMargin {
+  margin-top: 0 !important;
+}
+
+@media only screen and (max-width: 640px) {
+  .noTopMargin {
+    margin-top: 30px !important;
+  }
+}
