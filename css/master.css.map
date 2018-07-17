@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,KAAM,GACA,KAAK,EAAE,KAAK,EACZ,MAAM,EAAE,KAAK,EACb,UAAU,EAAE,0EAA0E,EACtF,eAAe,EAAE,KAAK;;AAG5B,WAAY,GACN,SAAS,EAAC,eAAe",
-"sources": ["_navbar.scss"],
-"names": [],
-"file": "master.css"
-}
