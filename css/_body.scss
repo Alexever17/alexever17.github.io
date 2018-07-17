@@ -21,7 +21,13 @@
 }
 
 .additionalPaddingParent-1 {
+    padding: 2% 4%;
+}
+
+@include break(640) {
+    .additionalPaddingParent-1 {
     padding: 3% 4%;
+}
 }
 
 .marginTop {
