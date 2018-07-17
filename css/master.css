@@ -16,11 +16,15 @@
 }
 
 .navColor {
-  background: #1D0539 !important;
+  background: #74132C !important;
 }
 
 .firstNavElement {
   margin-left: 30px;
+}
+
+.firstSection {
+  background: url(../assets/backgrounds/cassi-josh-644012-unsplash.jpg) no-repeat center fixed;
 }
 
 .additionalPadding {
@@ -35,21 +39,26 @@
   padding: 4% 4%;
 }
 
+@media only screen and (max-width: 640px) {
+  .additionalPaddingParent {
+    padding: 4% 4% 6% 4%;
+  }
+}
+.additionalPaddingParent-1 {
+  padding: 3% 4%;
+}
+
 .marginTop {
   margin-top: 20px;
 }
 
-.firstSection {
-  background: url(../assets/cassi-josh-644012-unsplash.jpg) no-repeat center fixed;
-}
-
 .secondSection {
-  background: url(../assets/art-by-lonfeldt-592708-unsplash.jpg) no-repeat center fixed;
+  background: url(../assets/backgrounds/art-by-lonfeldt-592708-unsplash.jpg) no-repeat center fixed;
 }
 
 .colorShadow {
-  -webkit-box-shadow: 3px 3px black, -3px -3px black;
-          box-shadow: 3px 3px black, -3px -3px black;
+  -webkit-box-shadow: 3px 3px white, -3px -3px white;
+          box-shadow: 3px 3px white, -3px -3px white;
 }
 
 .noTopMargin {
@@ -60,4 +69,25 @@
   .noTopMargin {
     margin-top: 30px !important;
   }
+}
+.uk-card-media-top img {
+  -webkit-box-shadow: 0px 1px white;
+          box-shadow: 0px 1px white;
+}
+
+.uk-card-media-bottom img {
+  -webkit-box-shadow: 0px -1px white;
+          box-shadow: 0px -1px white;
+}
+
+.thirdSection {
+  background: url(../assets/backgrounds/art-by-lonfeldt-636728-unsplash.jpg) no-repeat center fixed;
+}
+
+.forthSection {
+  background: url(../assets/backgrounds/art-by-lonfeldt-592711-unsplash.jpg) no-repeat center fixed;
+}
+
+.whiteBackground {
+  background: rgba(255, 255, 255, 0.98);
 }

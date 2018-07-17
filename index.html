@@ -20,11 +20,10 @@
   <body>
     <div id="main">
 
-
-
-
+<!-- ###################################  FIRST SECTION AND NAVIGATION -->
       <div class="uk-container-expand hero firstSection" id="navbar">
-        <!-- DESKTOP NAV -->
+        <!-- #################################################################   DESKTOP NAV -->
+
         <nav class="uk-navbar-container uk-navbar-transparent uk-visible@s" uk-navbar>
           <div class="uk-navbar-left">
         
@@ -46,7 +45,8 @@
           </div>
         </nav>
 
-        <!-- MOBILE NAV -->
+        <!-- ##################################################################   MOBILE NAV -->
+
         <nav class="uk-navbar uk-navbar-container uk-navbar-transparent uk-hidden@s">
           <div class="uk-navbar-left">
             <!-- The Search Icon and the collapsed hamburger menu -->
@@ -95,25 +95,11 @@
           </div>
         </nav>
 
-        <!-- CONTENT -->
+        <!-- #########################################################   First Section, start of the boxes with content -->
         <div class="uk-child-width-1-2@m uk-child-width-1-2@s uk-flex-bottom marginTop additionalPaddingParent" uk-grid>
-
-          <div>
-            <div class="uk-card uk-card-default">
-              <div class="uk-card-media-top">
-                <img src="assets/library.jpg" alt="">
-              </div>
-              <div class="uk-card-body">
-                <h3 class="uk-card-title">Featured Project: <a href="https://alex-novels.xyz">Alex Novels</a></h3>
-                <p>A small Website to show off my favorit Novels and my rating of them. Maybe you can discover something interesting for you?</p>
-                <button class="uk-button uk-button-default"><a href="https://github.com/Alexever17/novels">Github</a></button>
-                <button class="uk-button uk-button-default">
-                  <a href="https://alex-novels.xyz">Live Website</a>
-                </button>
-              </div>
-            </div>
-          </div>
           
+
+          <!-- #################################################   Welcome Stranger Box -->
           <div class="uk-container-expand">
             <div class="uk-card uk-card-default uk-card-small ">
               <div class="uk-card-header additionalPaddingSmall">
@@ -136,20 +122,86 @@
                   klick on the corresponding tile. Have fun!</p>
               </div>
             </div>
+
+
+            <!-- ################################################   Social Links Box -->
+            <div class="uk-card uk-card-default marginTop">
+              <div class="uk-card-body">
+                <h3 class="uk-card-title">
+                  Social Links
+                </h3>
+                <div uk-grid>
+                <a href="https://github.com/Alexever17" uk-icon="icon: github; ratio: 3"></a>
+                  <a href="https://www.facebook.com/profile.php?id=100001317441400&ref=br_rs" uk-icon="icon: facebook; ratio: 3"></a>
+                <a href="mailto:alexever17@gmail.com" uk-icon="icon: mail; ratio: 3"></a></div>
+              </div>
+            </div>
           </div>
+
           
-        </div>
-      </div>
+
+          <!-- ######################################################    Featured Project Box -->
+          <div class="uk-container-expand">
+            <div class="uk-card uk-card-default">
+              <div class="uk-card-media-top">
+                <img src="assets/projects/library.jpg" alt="">
+              </div>
+              <div class="uk-card-body">
+                <h3 class="uk-card-title">Featured Project:
+                  <a href="https://alex-novels.xyz">Alex Novels</a>
+                </h3>
+                <p>A small Website to show off my favorit Novels and my rating of them. Maybe you can discover something interesting for
+                  you?</p>
+                  <div>
+                    <button class="uk-button uk-button-default">
+                      <a href="https://github.com/Alexever17/novels">Github</a>
+                    </button>
+                    <button class="uk-button uk-button-default">
+                      <a href="https://alex-novels.xyz">Live Website</a>
+                    </button>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+        </div> <!-- ######## End of Content Boxes -->
+
+        
+      </div> <!-- ######## End of first section -->
 
       <div class="uk-container-expand hero secondSection" id="Projects">
 
+        <div class="uk-child-width-1-2@s additionalPaddingParent-1 whiteBackground" uk-grid>
+          <h2 class="">Projects</h2>
+        </div>
 
-        <div class="uk-child-width-1-2@s uk-grid-match additionalPaddingParent" uk-grid>
+
+        <div class="uk-child-width-1-2@s uk-grid-match additionalPaddingParent noTopMargin" uk-grid>
           <div>
             <div class="uk-card uk-card-secondary colorShadow">
               <div class="uk-card-media-top">
-                <img src="assets/library.jpg" alt="">
+                <img src="assets/projects/chingu-warrior.jpg" alt="">
               </div>
+              <div class="uk-card-body">
+                <h3 class="uk-card-title">
+                  <a href="https://alexever17.github.io/random-quote-machine/">Last Chingu Warrior</a>
+                </h3>
+                <p>A fun and hellishly difficult game build by the awesome <a href="https://github.com/chingu-voyage5/Geckos-Team-5/graphs/contributors">Geckos-Team-5</a> team using the newest version of the Phaser.js framework in only 8 weeks.
+                  It was a real challenge and joy working with a framework we never used before and making such a complex project like a game.
+                </p>
+                <button class="uk-button uk-button-default">
+                  <a href="https://github.com/chingu-voyage5/Geckos-Team-5">Github</a>
+                </button>
+                <button class="uk-button uk-button-default">
+                  <a href="http://chinguwarrior.surge.sh/">Live Website</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="uk-card uk-card-secondary colorShadow">
               <div class="uk-card-body">
                 <h3 class="uk-card-title">
                   <a href="https://alex-novels.xyz">Alex Novels</a>
@@ -162,10 +214,21 @@
                   <a href="https://alex-novels.xyz">Live Website</a>
                 </button>
               </div>
+              <div class="uk-card-media-bottom">
+                <img src="assets/projects/library.jpg" alt="">
+              </div>
             </div>
           </div>
+
+        </div>
+
+        <div class="uk-child-width-1-2@s uk-grid-match additionalPaddingParent noTopMargin" uk-grid>
+          
           <div>
             <div class="uk-card uk-card-secondary colorShadow">
+              <div class="uk-card-media-top">
+                <img src="assets/projects/catchdaalien.png" alt="">
+              </div>
               <div class="uk-card-body">
                 <h3 class="uk-card-title">
                   <a href="https://catch-da-alien.github.io/">Catch Da Alien</a>
@@ -176,31 +239,6 @@
                 </button>
                 <button class="uk-button uk-button-default">
                   <a href="https://catch-da-alien.github.io/">Live Website</a>
-                </button>
-              </div>
-              <div class="uk-card-media-bottom">
-                <img src="assets/catchdaalien.png" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="uk-child-width-1-2@s uk-grid-match additionalPaddingParent noTopMargin" uk-grid>
-          <div>
-            <div class="uk-card uk-card-secondary colorShadow">
-              <div class="uk-card-media-top">
-                <img src="assets/youbifier.png" alt="">
-              </div>
-              <div class="uk-card-body">
-                <h3 class="uk-card-title">
-                  <a href="https://alexever17.github.io/NameYoubifier/">NameYoubifier</a>
-                </h3>
-                <p>Write your name and see which music comes out! By applying an algorithms the site decides which one of the 100 songs to play.</p>
-                <button class="uk-button uk-button-default">
-                  <a href="https://github.com/Alexever17/NameYoubifier">Github</a>
-                </button>
-                <button class="uk-button uk-button-default">
-                  <a href="https://alexever17.github.io/NameYoubifier/">Live Website</a>
                 </button>
               </div>
             </div>
@@ -220,7 +258,7 @@
                 </button>
               </div>
               <div class="uk-card-media-bottom">
-                <img src="assets/tictactoe.png" alt="">
+                <img src="assets/projects/tictactoe.png" alt="">
               </div>
             </div>
           </div>
@@ -230,22 +268,24 @@
           <div>
             <div class="uk-card uk-card-secondary colorShadow">
               <div class="uk-card-media-top">
-                <img src="assets/randomquotes.jpg" alt="">
+                <img src="assets/projects/youbifier.png" alt="">
               </div>
               <div class="uk-card-body">
                 <h3 class="uk-card-title">
-                  <a href="https://alexever17.github.io/random-quote-machine/">Random Quote Generator</a>
+                  <a href="https://alexever17.github.io/NameYoubifier/">NameYoubifier</a>
                 </h3>
-                <p>Get your daily dose of great quotes with this website.</p>
+                <p>Write your name and see which music comes out! By applying an algorithms the site decides which one of the 100 songs
+                  to play.</p>
                 <button class="uk-button uk-button-default">
-                  <a href="https://github.com/Alexever17/random-quote-machine">Github</a>
+                  <a href="https://github.com/Alexever17/NameYoubifier">Github</a>
                 </button>
                 <button class="uk-button uk-button-default">
-                  <a href="https://alexever17.github.io/random-quote-machine/">Live Website</a>
+                  <a href="https://alexever17.github.io/NameYoubifier/">Live Website</a>
                 </button>
               </div>
             </div>
           </div>
+    
           <div>
             <div class="uk-card uk-card-secondary colorShadow">
               <div class="uk-card-body">
@@ -261,13 +301,32 @@
                 </button>
               </div>
               <div class="uk-card-media-bottom">
-                <img src="assets/tickybot.png" alt="">
+                <img src="assets/projects/tickybot.png" alt="">
               </div>
             </div>
           </div>
         </div>
 
 
+      </div>
+
+      <div class="uk-container-expand hero thirdSection" id="Stack">
+
+
+        <div class="uk-child-width-1-2@s additionalPaddingParent-1 whiteBackground" uk-grid>
+          <h2 class="">Stack</h2>
+        </div>
+
+
+      </div>
+      <div class="uk-container-expand hero forthSection" id="Contact">
+      
+      
+        <div class="uk-child-width-1-2@s additionalPaddingParent-1 whiteBackground" uk-grid>
+          <h2 class="">Contact</h2>
+        </div>
+      
+      
       </div>
 
 
