@@ -32,13 +32,13 @@
                 <a href="#" class="navText firstNavElement">Oleksandr Malakhov</a>
               </li>
               <li>
-                <a href="#Projects" class="navText">Projects</a>
+                <a href="#Projects" class="navText" uk-scroll>Projects</a>
               </li>
               <li>
-                <a href="#Stack" class="navText">Stack</a>
+                <a href="#Stack" class="navText" uk-scroll>Stack</a>
               </li>
               <li>
-                <a href="#Contact" class="navText">Contact</a>
+                <a href="#Contact" class="navText" uk-scroll>Contact</a>
               </li>
             </ul>
         
@@ -71,22 +71,22 @@
                       
                     </li>
                     <li>
-                      <a href="index.html" class="navTextSmall">Oleksandr Malakhov</a>
+                      <a href="index.html" class="navTextSmall" uk-scroll>Oleksandr Malakhov</a>
                     </li>
                     <li class="uk-nav-divider"></li>
                     <li class="uk-nav-divider"></li>
                     <li>
-                      <a href="#Projects" class="navTextSmall">Projects</a>
+                      <a href="#Projects" class="navTextSmall" uk-scroll>Projects</a>
                     </li>
                     <li class="uk-nav-divider"></li>
                     <li class="uk-nav-divider"></li>
                     <li>
-                      <a href="#Stack" class="navTextSmall">Stack</a>
+                      <a href="#Stack" class="navTextSmall" uk-scroll>Stack</a>
                     </li>
                     <li class="uk-nav-divider"></li>
                     <li class="uk-nav-divider"></li>
                     <li>
-                      <a href="#Contact" class="navTextSmall">Contact</a>
+                      <a href="#Contact" class="navTextSmall" uk-scroll>Contact</a>
                     </li>
                   </ul>
                 </div>
@@ -100,7 +100,7 @@
           
 
           <!-- #################################################   Welcome Stranger Box -->
-          <div class="uk-container-expand">
+          <div class="uk-container-expand" id="welcomingBox">
             <div class="uk-card uk-card-default uk-card-small ">
               <div class="uk-card-header additionalPaddingSmall">
                 <div class="uk-grid-small uk-flex-middle" uk-grid>
@@ -130,7 +130,7 @@
                 <h3 class="uk-card-title">
                   Social Links
                 </h3>
-                <div uk-grid>
+                <div>
                 <a href="https://github.com/Alexever17" uk-icon="icon: github; ratio: 3"></a>
                   <a href="https://www.facebook.com/profile.php?id=100001317441400&ref=br_rs" uk-icon="icon: facebook; ratio: 3"></a>
                 <a href="mailto:alexever17@gmail.com" uk-icon="icon: mail; ratio: 3"></a></div>
@@ -142,12 +142,12 @@
 
           <!-- ######################################################    Featured Project Box -->
           <div class="uk-container-expand">
-            <div class="uk-card uk-card-default">
+            <div class="uk-card uk-card-default" id="featuredBox">
               <div class="uk-card-media-top">
                 <img src="assets/projects/library.jpg" alt="">
               </div>
               <div class="uk-card-body">
-                <h3 class="uk-card-title">Featured Project:
+                <h3 class="uk-card-title">Featured Project:<br>
                   <a href="https://alex-novels.xyz">Alex Novels</a>
                 </h3>
                 <p>A small Website to show off my favorit Novels and my rating of them. Maybe you can discover something interesting for
@@ -174,7 +174,10 @@
       <div class="uk-container-expand hero secondSection" id="Projects">
 
         <div class="uk-child-width-1-2@s additionalPaddingParent-1 whiteBackground" uk-grid>
-          <h2 class="">Projects</h2>
+          <h2 class="">
+            <a href="#offcanvas-usage" uk-toggle><span uk-navbar-toggle-icon class="uk-hidden@s mobileBodyMenu"></span></a>
+            Projects
+          </h2>    
         </div>
 
 
@@ -312,9 +315,39 @@
 
       <div class="uk-container-expand hero thirdSection" id="Stack">
 
-
         <div class="uk-child-width-1-2@s additionalPaddingParent-1 whiteBackground" uk-grid>
-          <h2 class="">Stack</h2>
+          <h2 class="">
+            <a href="#offcanvas-usage" uk-toggle>
+              <span uk-navbar-toggle-icon class="uk-hidden@s mobileBodyMenu"></span>
+            </a>
+            Stack
+          </h2>
+        </div>
+
+        <div class="uk-child-width-1-2@s uk-grid-match additionalPaddingParent noTopMargin" uk-grid>
+          <div>
+            <div class="uk-card uk-card-primary colorShadow">
+              
+              <div class="uk-card-body">
+                <h3 class="uk-card-title">
+                  <a href="https://alexever17.github.io/NameYoubifier/">I am proficient in:</a>
+                </h3>
+                
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="uk-card uk-card-primary colorShadow">
+              
+              <div class="uk-card-body">
+                <h3 class="uk-card-title">
+                  <a href="https://alexever17.github.io/NameYoubifier/">Future study areas:</a>
+                </h3>
+                
+              </div>
+            </div>
+          </div>
         </div>
 
 
@@ -323,7 +356,12 @@
       
       
         <div class="uk-child-width-1-2@s additionalPaddingParent-1 whiteBackground" uk-grid>
-          <h2 class="">Contact</h2>
+          <h2 class="">
+            <a href="#offcanvas-usage" uk-toggle>
+              <span uk-navbar-toggle-icon class="uk-hidden@s mobileBodyMenu"></span>
+            </a>
+            Contact
+          </h2>
         </div>
       
       

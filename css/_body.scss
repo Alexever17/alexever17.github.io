@@ -1,3 +1,11 @@
+button {
+    margin-top: 8px !important;
+}
+
+.uk-card-primary {
+    background-color: $color2-4 !important;
+}
+
 .firstSection {
       background: url(../assets/backgrounds/cassi-josh-644012-unsplash.jpg) no-repeat center fixed;
 }
@@ -16,7 +24,7 @@
 
 @include break(640) {
     .additionalPaddingParent {
-    padding: 4% 4% 6% 4%;
+    padding: 4% 4% 11% 4%;
 }
 }
 
@@ -35,12 +43,18 @@
 }
 
 .secondSection {
+      background: url(../assets/backgrounds/art-by-lonfeldt-592708-unsplash.jpg) no-repeat center fixed;
+}
+
+@include break(640) {
+    .secondSection {
       background: url(../assets/backgrounds/art-by-lonfeldt-592708-unsplash.jpg);
+    }
 }
 
 .colorShadow {
     // box-shadow: 3px 3px $color1-4, -3px -3px $color2-4;
-    box-shadow: 3px 3px white, -3px -3px white;
+    box-shadow: 3px 3px white, -3px -3px white, 3px -3px white, -3px 3px white;
 }
 
 .noTopMargin {
@@ -66,7 +80,7 @@
 }
 
 .thirdSection {
-      background: url(../assets/backgrounds/art-by-lonfeldt-636728-unsplash.jpg) no-repeat center fixed;
+      background: url(../assets/backgrounds/art-by-lonfeldt-635275-unsplash.jpg) no-repeat center fixed;
 }
 
 .forthSection {
@@ -75,4 +89,8 @@
 
 .whiteBackground {
     background: rgba($color: #ffffff, $alpha: 0.98);
+}
+
+.mobileBodyMenu {
+    color: $color1-3;
 }
