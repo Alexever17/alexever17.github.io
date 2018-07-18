@@ -2,8 +2,12 @@ button {
     margin-top: 8px !important;
 }
 
-.uk-card-primary {
-    background-color: $color2-4 !important;
+.cardColor1 {
+    background-color: rgba($color: $color1-4, $alpha: 0.96) !important;
+}
+
+.cardColor2 {
+    background-color: rgba($color: $color2-4, $alpha: 0.96) !important;
 }
 
 .firstSection {
@@ -93,4 +97,19 @@ button {
 
 .mobileBodyMenu {
     color: $color1-3;
+}
+
+.bigIcon {
+    font-size: 500%;
+}
+
+.avatar {
+    max-width: 20vw;
+    height: auto;
+    display: block;
+    border: 1px solid white;
+}
+
+.noPaddingOnTop {
+    padding-top: 0 !important;
 }
